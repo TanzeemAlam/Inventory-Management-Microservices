@@ -10,7 +10,13 @@
   <description>Main project for Spring Boot Microservices</description>
   
   <modules>
-  	<module>user-service</module>
+  	<module>api-gateway</module>
+  	<module>billing-service</module>
+    <module>customer-service</module>
+  	<module>inventory-service</module>
+    <module>livestock-service</module>
   	<module>product-service</module>
+    <module>service-registry</module>
+  	<module>user-service</module>
   </modules>
 </project>
